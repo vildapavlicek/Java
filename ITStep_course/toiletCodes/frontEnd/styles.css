@@ -1,0 +1,439 @@
+/* Site styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+/* marker menu styles */
+#capture {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    background-color: white;
+    padding:10px;
+    z-index:3;
+}
+#comments {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    height:100%;
+    background-color: white;
+    padding:10px;
+    z-index:3;
+}
+
+#markerMenu {
+    display:none;
+    margin:0;
+    background-color: white;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:2;
+}
+#hide {
+    position:absolute;
+    top:0px;
+    right:0px;
+    width:30px;
+    height:30px;
+    outline:none;
+    z-index:4; 
+}
+#content{
+
+}
+/* gps My location button styles */
+.add_new_toilet_location{
+  background-position: center;
+  transition: background 0.8s;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.add_new_toilet_location:hover {
+  background-color: #e7e7e7 !important; 
+  background: white radial-gradient(circle, transparent 1%, white 1%) center/15000%;
+}
+.add_new_toilet_location:active {
+  
+  background-color: #e7e7e7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;/* Site styles */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.modal-header, h4, .close {
+      background-color: rgb(75,40,3);
+      color:white !important;
+      text-align: center;
+      font-size: 30px;
+  }
+.modal-footer {
+      background-color: #f9f9f9;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+}
+/* marker menu styles */
+#capture {
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    background-color: white;
+    padding:10px;
+    z-index:3;
+}
+#conteiner
+{
+    background-color: blue !important;
+    margin-left:auto;
+    margin-right:auto;
+    width:320px;
+    min-height:100%;
+    background-color: white;
+    padding:10px 10px 5px 10px;
+    z-index:3;
+}
+#comments {
+    background-color: blue !important;
+    margin-left:auto;
+    margin-right:auto;
+    width:300px;
+    min-height:100%;
+    background-color: white;
+    padding:10px 10px 5px 10px;
+    z-index:3;
+}
+
+#markerMenu {
+    display:none;
+    margin:0;
+    background-color: white;
+    position:absolute;
+    top:0px;
+    left:0px;
+    height:100%;
+    width:100%;
+    z-index:2;
+}
+#hide {
+    position:absolute;
+    color: black !important;
+    top:0px;
+    right:0px;
+    width:30px;
+    height:30px;
+    outline:none;
+    z-index:4; 
+}
+#content{
+
+}
+/* gps My location button,add new toilet, menu styles */
+.resultBox{
+  margin-bottom:5px;
+  padding: 5px 0px 5px 0px;
+  width:100%;
+  background-color: white !important; 
+  border: 2px solid transparent;
+}
+.resultBox:hover{
+  border: 2px solid gold;
+}
+.add_new_toilet_location{
+  background-position: center;
+  transition: background 0.8s;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.add_new_toilet_location:hover {
+  background-color: #e7e7e7 !important; 
+  background: white radial-gradient(circle, transparent 1%, white 1%) center/15000%;
+}
+.add_new_toilet_location:active {
+  
+  background-color: #e7e7e7;
+  background-size: 100%;
+  transition: background 0s;
+}
+
+#description {
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+#infowindow-content .title {
+  font-weight: bold;
+}
+
+#infowindow-content {
+  display: none;
+}
+
+#map #infowindow-content {
+  display: inline;
+}
+
+.pac-card {
+  margin: 10px 10px 0 0;
+  border-radius: 2px 0 0 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-container {
+  display: inline-block;
+  padding: 5px 11px;
+  position:fixed;
+  margin-top: -220px;
+}
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+height:28px;
+vertical-align:top;
+background-color: #fff;
+margin-right: 10px;
+margin-bottom: 14px;
+width: 125px;
+border: 1px solid #DDDDDD;
+box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3);
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+padding: 0 11px 0 13px;
+text-overflow: ellipsis;
+outline: none; 
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid #4d90fe;   
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 145px;
+}
+/* Popup styles */
+/* The location pointed to by the popup tip. */
+.popup-tip-anchor {
+    height: 0;
+    position: absolute;
+     /*The max width of the info window.*/ 
+    width: 200px;
+}   
+/* The bubble is anchored above the tip. */
+.popup-bubble-anchor {
+    position: absolute;
+    width: 100%;
+    bottom:  /*TIP_HEIGHT=*/  8px;
+    left: 0;
+} 
+/* Draw the tip. */
+.popup-bubble-anchor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Center the tip horizontally. */
+    transform: translate(-50%, 0);
+    /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+    width: 0;
+    height: 0;
+    /* The tip is 8px high, and 12px wide. */
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: /* TIP_HEIGHT= */ 8px solid transparent;
+}
+/* The popup bubble itself. */
+.popup-bubble-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -100%);
+    /* Style the info window. */
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    max-height: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}
+  -moz-box-sizing: border-box;
+  outline: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  background-color: #fff;
+  font-family: Roboto;
+}
+
+#pac-container {
+  padding-bottom: 12px;
+  margin-right: 12px;
+}
+
+.pac-container {
+  display: inline-block;
+  padding: 5px 11px;
+  position:fixed;
+  margin-top: -220px;
+}
+.pac-controls {
+  display: inline-block;
+  padding: 5px 11px;
+}
+
+.pac-controls label {
+  font-family: Roboto;
+  font-size: 13px;
+  font-weight: 300;
+}
+
+#pac-input {
+height:28px;
+vertical-align:top;
+background-color: #fff;
+margin-right: 10px;
+margin-bottom: 14px;
+width: 200px;
+border: 1px solid #DDDDDD;
+box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.3);
+font-family: Roboto;
+font-size: 15px;
+font-weight: 300;
+padding: 0 11px 0 13px;
+text-overflow: ellipsis;
+outline: none; 
+}
+
+#pac-input:focus {
+  border-color: #4d90fe;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid #4d90fe;   
+}
+
+#title {
+  color: #fff;
+  background-color: #4d90fe;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 6px 12px;
+}
+
+#target {
+  width: 145px;
+}
+/* Popup styles */
+/* The location pointed to by the popup tip. */
+.popup-tip-anchor {
+    height: 0;
+    position: absolute;
+     /*The max width of the info window.*/ 
+    width: 200px;
+}   
+/* The bubble is anchored above the tip. */
+.popup-bubble-anchor {
+    position: absolute;
+    width: 100%;
+    bottom:  /*TIP_HEIGHT=*/  8px;
+    left: 0;
+} 
+/* Draw the tip. */
+.popup-bubble-anchor::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* Center the tip horizontally. */
+    transform: translate(-50%, 0);
+    /* The tip is a https://css-tricks.com/snippets/css/css-triangle/ */
+    width: 0;
+    height: 0;
+    /* The tip is 8px high, and 12px wide. */
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: /* TIP_HEIGHT= */ 8px solid transparent;
+}
+/* The popup bubble itself. */
+.popup-bubble-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -100%);
+    /* Style the info window. */
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    font-family: sans-serif;
+    overflow-y: auto;
+    max-height: 60px;
+    box-shadow: 0px 2px 10px 1px rgba(0,0,0,0.5);
+}

@@ -1,0 +1,9 @@
+https://github.com/DeveloperUX/BehaviorTree-Mod -- commented BHT code
+https://www.gamasutra.com/blogs/ChrisSimpson/20140717/221339/Behavior_trees_for_AI_How_they_work.php
+- git project https://github.com/paasovaara/behavior-trees
+
+http://aigamedev.com/open/articles/bt-overview/
+http://aigamedev.com/open/articles/popular-behavior-tree-design/
+http://aigamedev.com/open/articles/behavior-trees-part1/
+http://aigamedev.com/open/articles/behavior-trees-part2/
+http://magicscrollsofcode.blogspot.cz/2010/12/behavior-trees-by-example-ai-in-android.html

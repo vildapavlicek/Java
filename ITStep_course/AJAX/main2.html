@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+var btn = document.getElementById("submiter");
+var send = function(){
+var xhttp = new XMLHttpRequest();
+var myJSON = {"name":"Vilda","age":99,"location":"Team Nowhere"};
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+	console.log("Receiving response..");
+     console.log(this.responseText);
+	 document.getElementById("test").innerHTML = this.responseText;
+    }
+  };
+  xhttp.open("POST", "http://localhost:9000/JSONParser", true);
+  xhttp.send(JSON.stringify(myJSON));
+  console.log("Request sent!");
+}
+</script>
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<input type="submit" value="Submit" onclick="send()">
+
+
+<p id = "test">If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

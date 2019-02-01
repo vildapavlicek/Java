@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+	//'Access-Control-Allow-Origin: *'
+
+
+
+$( document ).ready(function() {
+
+    console.log( "ready!" );
+$( "button" ).on(
+				"click", function(){
+					$.ajax({
+	type: "POST",
+	url: "http://localhost:9000/JSONParser/",
+	dataType: "json",
+	data: "{ type: 2, response: 7, user: \"testUser\", text: \"payload test\" }",
+	contentType: "text/plain",
+	crossDomain: true,
+	success: function(data){
+		console.log(data);
+	}
+	})
+	.done(function() {
+		console.log("Done waypoint");
+	});
+				
+				/*$.post( "http://localhost:9000/JSONParser", "{ name: \"John\", age: 55 }").done(function(data){console.log(data);});
+			console.log("Posted!")*/
+				}
+);
+
+
+});
+
+
+</script>
+
+</head>
+<body>
+
+<h2>HTML Forms</h2>
+
+<input type="submit" value="Submit" id="submitter">
+<button type="button" class = "send">Click Me!</button>
+
+
+<p id = "test">If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+
+</body>
+</html>

@@ -1,0 +1,7 @@
+// ITERATOR POLE //
+for (HashMap.Entry<Item, Integer> entry : c.getInventory().entrySet()) {
+            System.out.println("Inventory - naplneny: " + entry.getKey() + " pocet: " + entry.getValue() + "\n");
+            }
+
+// CUSTOMER //
+Customer c = new Customer("Pepa", "Tester", 15, Human.Sex.MALE, 0, 0, 5000.0f);
